@@ -1,9 +1,6 @@
-[tool.black]
+[tool.ruff]
 line-length = 119
-
-[tool.isort]
-profile = "black"
-line_length = 119
+target-version = "py39"
 
 [tool.poetry]
 name = "proactive-voice-agent"
