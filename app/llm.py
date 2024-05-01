@@ -33,7 +33,6 @@ class LlmClient:
         return messages
 
     def prepare_prompt(self, request: CustomLlmRequest):
-
         transcript_messages = self.convert_transcript_to_messages(request.transcript)
         prompt = [ChatMessage(role="system", content=SYSTEM_PROMPT)] + transcript_messages
 

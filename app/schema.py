@@ -1,5 +1,4 @@
-"""Retell API schema
-"""
+"""Retell API schema"""
 
 from typing import Any, List, Literal, Optional
 
